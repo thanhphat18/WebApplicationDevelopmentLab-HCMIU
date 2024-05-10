@@ -1,0 +1,77 @@
+.main{
+    background-color: black;
+    width: auto;height: 100px;
+}
+.bar{
+    font-family: fantasy;
+    color: azure;
+    text-align: center;
+    font-size: 14px;
+}
+.content{
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+    position: relative;
+    margin: auto;
+    padding: 10px;
+    border: 1px solid;
+    border-top: none;
+}
+table, tr{
+    text-align: left;
+}
+table,tr,th{
+    border-collapse: 1px solid;
+}
+input [type='button'], [type=submit]{
+    font-size: 20px;
+    font-family: Arial;
+    background-color: black;
+    color: azure;
+    width: 200px;
+    transition: 0.3s;
+    border: none;
+}
+input [type="button"], [type=submit]:hover{
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    border: 1px solid;
+}
+.content input{
+    background-color: black;
+    border: none;
+    width:200px ;
+    color: azure;
+    height: 28px;
+}
+.content ::placeholder{
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+}
+.content textarea{
+    background-color: black;
+    border: none;
+    width: 200px;
+    height: 80px;
+}
+.form select{
+    background-color: black;
+    border: none;
+    height: 28px;
+    width: 200px;
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+}
+.backmenu{
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    transition: 0.5s;
+}
+.backmenu a:hover{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+}

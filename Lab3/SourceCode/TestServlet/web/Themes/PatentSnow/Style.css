@@ -1,0 +1,131 @@
+/* PatentSnow CCSTheme */
+BODY, TABLE, TH, TR, TD, UL, OL, LI, P, FONT, A, BLOCKQUOTE, LABEL { font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 13px; }
+.PatentSnowPageBODY{ font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 13px; 
+	margin: 0px;
+	padding: 0px;
+	background-color: #FBFEFF;
+}
+.PatentSnowFormTABLE{ border: 1px double #000000; background-color: #FFFFFF; }
+.PatentSnowFormHeaderFont{ color: #000080; font-size: 16px; font-weight: bold; }
+.PatentSnowColumnTD { border: 1px solid #698BB7; color: #000000; background-color: #CEE3FF; font-size: 13px; font-weight: bold; }
+.PatentSnowFieldCaptionTD { border: 1px solid #698BB7; color: #000000; background-color: #CEE3FF; font-size: 13px; }
+.PatentSnowDataTD{ border: 1px solid #B3CAE1; color: #000000; font-size: 13px; }
+.PatentSnowErrorDataTD{ color: #FF0000; background-color: #FFFFFF; font-size: 13px; }
+.PatentSnowSeparatorTD{ height: 1px; background-color: #808080; }
+.PatentSnowAltDataTD{ border: 1px solid #B3CAE1; color: #000000; background-color: #EFF7FF; font-size: 13px; }
+.PatentSnowFooterTD { border: 1px solid #B3CAE1; color: #000000; background-color: #EFF7FF; font-size: 13px; }
+a.PatentSnowSorterLink:link,a.PatentSnowSorterLink:visited{ color: #000000; font-weight: bold; text-decoration: underline; }
+a.PatentSnowSorterLink:hover,a.PatentSnowSorterLink:active{ color: #FF0000; font-weight: bold; text-decoration: none; }
+a.PatentSnowDataLink:link,a.PatentSnowDataLink:visited{ color: #000000; text-decoration: underline; }
+a.PatentSnowDataLink:hover,a.PatentSnowDataLink:active{ color: #FF0000; text-decoration: none; }
+a.PatentSnowNavigatorLink:link,a.PatentSnowNavigatorLink:visited{ color: #000000; font-weight: bold; text-decoration: underline; }
+a.PatentSnowNavigatorLink:hover,a.PatentSnowNavigatorLink:active{ color: #FF0000; font-weight: bold; text-decoration: none; }
+.PatentSnowButton { border-bottom: 1px solid #698BB7; border-left: 1px solid #698BB7; border-right: 1px solid #698BB7; border-top: 1px solid #698BB7; background-color: #CEE3FF; font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 13px; }
+.PatentSnowInput { border-bottom: 1px double #000000; border-left: 1px double #000000; border-right: 1px double #000000; border-top: 1px double #000000; font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 13px; }
+.PatentSnowTextarea { border-bottom: 1px double #000000; border-left: 1px double #000000; border-right: 1px double #000000; border-top: 1px double #000000; font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 13px; }
+.PatentSnowSelect { font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 13px; }
+/* Calendar */
+a.today:link,a.today:visited{ color: #FF0000; font-weight: bold; text-decoration: none; }
+a.today:hover,a.today:active{ color: #000000; font-weight: bold; text-decoration: none; }
+a.selectedDay:link,a.selectedDay:visited{ color: #000000; font-weight: bold; text-decoration: none; }
+a.selectedDay:hover,a.selectedDay:active{ color: #FF0000; font-weight: bold; text-decoration: none; }
+a.weekDay:link,a.weekDay:visited{ color: #000000; text-decoration: none; }
+a.weekDay:hover,a.weekDay:active{ color: #FF0000; text-decoration: none; }
+TD.selectedDay { margin: 1px; border: 1px solid #698BB7; color: #000000; background-color: #CEE3FF; font-size: 13px; font-weight: bold; }
+TD.today { border-top: 1px solid #FF0000; border-left: 1px solid #FF0000; border-bottom: 1px solid #FF0000; border-right: 1px solid #FF0000; color: #000000; font-size: 13px; }
+TD.workday { border: 1px solid #B3CAE1; color: #000000; font-size: 13px; }
+TD.weekend { border: 1px solid #B3CAE1; color: #000000; background-color: #E5F3FF; font-size: 13px; }
+TH.calendar { margin: 1px; border: 1px solid #698BB7; color: #000000; background-color: #CEE3FF; font-size: 13px; font-weight: bold; }
+.CalendarButtons { margin: 1px; border-bottom: 1px solid #698BB7; border-left: 1px solid #698BB7; border-right: 1px solid #698BB7; border-top: 1px solid #698BB7; background-color: #CEE3FF; font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 13px; }
+.CalendarControls { font-family: Tahoma, Verdana, Arial, Helvetica; font-size: 13px; }
+.Table { border: 1px double #000000; background-color: #FFFFFF; }
+
+/***********************************************/
+#PTMain{
+	position:absolute;
+	top: auto;
+	left: 0%;
+	right: 0%;
+	width:99.6%;
+	background-color: #F2F7F9;
+}
+
+
+#PTLeft{
+	/*float: left;*/
+	position:absolute;
+	left: 0;
+	width:150px;
+	height:auto;
+	background-color: #F2F7F9;
+	border-right: none; /*1px solid #cccccc;*/
+	border-bottom: 1px solid none;
+	font:Times New Roman;
+	font-size:13px;
+}
+/************* noi dung ***************/
+#PTContent{
+	padding: 0px 10px 0px 15px;
+	margin:0px 0px 0px 150px;
+	top:0px;
+	font-size:16px;
+	border-left: 1px solid #cccccc;
+	height:auto;
+	background-color: #FBFEFF;
+}
+
+
+
+/************* top styles ***************/
+
+#PTtop{
+	padding: 5px 0px 5px 10px;
+	font: small Verdana,sans-serif;
+	color: #AAAAAA;
+	border-bottom: 1px solid #cccccc;
+}
+/************** hearderr styles ****************/
+#PTHeader {
+	BACKGROUND: #F2F7F9; BORDER-TOP: #F2F7F9 1px solid; CLEAR: both; HEIGHT: 90px; MARGIN-BOTTOM: 2px;MARGIN: 0px;TEXT-ALIGN: left
+	
+}
+
+#PTWelcome {
+	Z-INDEX: 1; LEFT: 550px; WIDTH: 220px; POSITION: absolute; 
+	TOP: 72px; HEIGHT: 17px; text-align: right; font-size: 11px; color: #AAAAAA;
+}
+
+a.PTWelcomeLink:link, a.PTWelcomeLink:visited{ color: #6699FF; font-weight: bold; text-decoration: underline; font-size: 11px;}
+a.PTWelcomeLink:hover, a.PTWelcomeLink:active{ color: #FFCC99; font-weight: bold; text-decoration: none; font-size: 11px;}
+
+
+
+a.PTMenuLink:link, a.PTMenuLink:visited{ text-decoration: none; }
+a.PTMenuLink:hover, a.PTMenuLink:active{ text-decoration: none; background-color: #FFEECC;}
+
+/************** footer styles ****************/
+
+#PTfooter{
+	clear: both;
+	border-top: 1px solid #cccccc;
+	font-size: 11px;
+	color: #AAAAAA;
+	background-color:#F5f7f7;
+	padding: 5px 5px 5px 5px;
+	text-align:center;
+	margin: 0px auto auto;
+}
+#PTFooter P {
+	BACKGROUND: url(../)  #F2F7F9 no-repeat; LINE-HEIGHT: 200%
+}
+#PTFooter P {
+	PADDING-TOP: 5px
+}
+
+#PTFooter img {
+	padding: 4px 4px 4px 0px;
+	vertical-align: middle;
+}
+
+
+/********************* end **********************/

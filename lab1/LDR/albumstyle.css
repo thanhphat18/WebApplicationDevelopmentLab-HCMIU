@@ -1,0 +1,73 @@
+.main{
+    width: 100%;
+}
+.navbar{
+    background-color: black;
+    width: 100%;
+    height: 90px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: azure;
+    margin-left: 100px;
+    font-family: fantasy;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    font-color: azure;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color: azure;
+    font-size: 20px;
+}
+.divide{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    position: relative;
+    display: flex;
+}
+.pictures{
+    margin: 60px 10px;
+}
+.titles{
+    font-family: fantasy;
+}
+.text li p{
+    font-family: 'Courier New', Courier, monospace;
+}
+.text li {
+    font-family: 'Courier New', Courier, monospace;
+}
+figure{
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+video{
+    margin-left: 80px;
+}
+audio{
+    margin: 80px 300px;
+}

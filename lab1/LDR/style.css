@@ -1,0 +1,29 @@
+.main{
+    text-align: center;
+}
+.icon{
+    font-family:fantasy;
+    position: relative;
+    border: none;
+}
+.fcap{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: gray;
+}
+.content{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 50%;
+    background-color: black;
+    position: relative;
+    margin: auto;
+    padding: 10px;
+}
+.content ul li{
+    color:aliceblue;
+    list-style-type: none;
+    float: center;
+    text-align: left;
+
+}

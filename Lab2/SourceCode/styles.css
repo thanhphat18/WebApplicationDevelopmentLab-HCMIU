@@ -1,0 +1,23 @@
+/* 
+    Document   : styles
+    Created on : Feb 21, 2009, 11:20:05 PM
+    Author     : Sinh Nguyen Van
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+h2 { 
+        font-size: 150%; color:grey;
+   }
+
+p  {
+        font-size: 120%; color:blue};
+   }
