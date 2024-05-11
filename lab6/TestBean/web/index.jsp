@@ -19,11 +19,13 @@
         </table>
         <jsp:useBean id="stringBean" class = "Bean.StringBean"/>
         <ol>
-            <li>
-                Initial Value(from jsp:getProperty):
-            </li>
             <li>Initial Value(from JSP expression):
                 <i><%= stringBean.getMessage() %></i>
+            </li>
+            <li>
+                <jsp:setProperty name="stringBean" property="message" value=""/>
+                Initial Value(from jsp:getProperty):
+                <i><jsp:getProperty name="stringBean" property="message"></i>
             </li>
             <li>
                 <jsp:setProperty name="stringBean" property="message" value="Best string bean: Fortex"/>
