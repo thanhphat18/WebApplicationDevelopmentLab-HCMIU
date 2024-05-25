@@ -12,7 +12,7 @@
         <title>Account Information</title>
     </head>
     <jsp:useBean id="accountBean" class="Bean.AccountBean" />
-    <body >
+    <body>
         <h1 align="center">Please provide your account information</h1>
         <hr>
         <form action="./ShoppingServlet">

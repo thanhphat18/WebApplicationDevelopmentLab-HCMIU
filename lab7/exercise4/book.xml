@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+<WebBook>
+    <book>
+        <title>Beginning XML, 4th Edition (Programmer to Programmer)</title>
+        <isbn>0470114878</isbn>
+        <author>David Hunter, Jeff Rafter, Joe Fawcett, and Eric van Dist</author>
+        <publisher>Wrox</publisher>
+        <publicationdate>May 21, 2007</publicationdate>
+        <price>26.39</price>
+    </book>
+    <book>
+        <title>XML in a Nutshell, Third Edition</title>
+        <isbn>0596007647</isbn>
+        <author>Elliotte Rusty Harold and W. Scott Means</author>
+        <publisher>O'Reilly Media, Inc.</publisher>
+        <publicationdate>September 2004</publicationdate>
+        <price>26.37</price>
+    </book>
+    <book>
+        <title>Learning XML, Second Edition</title>
+        <isbn>0596004206</isbn>
+        <author>Erik Ray</author>
+        <publisher>O'Reilly Media, Inc.</publisher>
+        <publicationdate>September 22, 2003</publicationdate>
+        <price>26.37</price>
+    </book>
+    <book>
+        <title>Definitive XML Schema (The Charles F. Goldfarb Definitive XML Series)</title>
+        <isbn>0130655678</isbn>
+        <author>Priscilla Walmsley</author>
+        <publisher>Prentice Hall PTR</publisher>
+        <publicationdate>December 17, 2001</publicationdate>
+        <price>33.38</price>
+    </book>
+</WebBook>
